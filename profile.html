@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+
+        <div class="process">
+
+            <header>
+                <div class="logo"><img src="images/logo.svg" alt=""></div>
+                <a href="personal_details.html"><div class="back_btn">
+                    <img src="images/back_arrow.png" alt="">
+                    <span>Back</span>
+                </div></a>
+            </header>
+
+            <div class="process_section">
+
+                <div class="timeline">
+                    <div class="process_dot completed_dot"></div>
+                    <div class="process_line completed_line"></div>
+
+                    <div class="process_dot completed_dot"></div>
+                    <div class="process_line completed_line"></div>
+
+                    <div class="timeline_heading">Social</div>
+
+                    <div class="process_line"></div>
+                    <div class="process_dot"></div>
+
+                    <div class="process_line"></div>
+                    <div class="process_dot"></div>
+
+                    <div class="process_line"></div>
+                    <div class="process_dot"></div>
+                </div>
+
+                <div class="user_section">
+                    <div class="user_form">
+
+                        <div class="form_heading">Where Can We See Some of Your Work?</div>
+
+                        <div class="form_desc">
+                            <p>The more the better when it comes to sharing your past work.
+                            A LinkedIn profile is great for starters,
+                            and we'd love to see any additional links that showcase recent samples.</p>
+                        </div>
+
+                        <div class="user_details">
+                            <form action="location.html" enctype="multipart/form-data">
+                                <div class="input_label">LinkedIn</div>
+                                <input id="linkedin_input" class="form_input" style="margin-bottom: 5px;" type="url" placeholder="https://www.linkedin.com/in/..." required>
+
+                                <div class="terms" style="margin-bottom: 23px;">
+                                    <input id="no_linkedin_btn" class="radio_btn" type="radio" aria-label="btn" required>
+                                    <span>I don't have a LinkedIn profile</span>
+                                </div>
+
+                                <div class="input_label">GitHub (Optional)</div>
+                                <input class="form_input" type="url" placeholder="https://www.github.com/...">
+
+                                <div class="input_label">Personal Website (Optional)</div>
+                                <input class="form_input" type="url" placeholder="https://www.mywebsite.com...">
+
+                                <div class="input_label">Your Resume (optional)</div>
+                                <div class="upload_resume_box">
+                                    <div class="upload_btn">
+                                        <span class="plus_sign">+</span>
+                                        <img src="images/icon_bg.svg" alt="">
+                                    </div>
+
+                                    <input type="file" class="resume_input" name="resume" accept="application/pdf, application/vnd.ms-excel" aria-label="input_resume">
+                                    <div class="upload_info">
+                                        <div class="upload_label">Upload your Resume</div>
+                                        <div class="upload_format">PDF file format</div>
+                                    </div>
+                                </div>
+                                
+                                <button type submit class="orange_next_btn" style="background: rgb(255, 122, 0); cursor: pointer;" value="Next">Next</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process_footer" style="margin-top: 7px;">
+                <div class="footer_text">© 2024 ATeams Inc., All rights reserved.</div>
+                <div class="footer_links">
+                    <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a></div>
+            </div>
+            
+        </div>
+
+        <div class="cover"><img src="images/img3.png" alt=""></div>
+
+    </div>
+
+<script src="javascript_profile.js" defer></script>
+</body>
+</html>

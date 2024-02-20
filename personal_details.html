@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+
+        <div class="process">
+
+            <header>
+                <div class="logo"><img src="images/logo.svg" alt=""></div>
+            </header>
+
+            <div class="process_section">
+
+                <div class="timeline">
+                    <div class="process_dot completed_dot"></div>
+                    <div class="process_line completed_line"></div>
+
+                    <div class="timeline_heading">Personal Details</div>
+
+                    <div class="process_line"></div>
+                    <div class="process_dot"></div>
+
+                    <div class="process_line"></div>
+                    <div class="process_dot"></div>
+
+                    <div class="process_line"></div>
+                    <div class="process_dot"></div>
+
+                    <div class="process_line"></div>
+                    <div class="process_dot"></div>
+                </div>
+
+                <div class="user_section">
+                    <div class="user_form">
+
+                        <div class="form_heading">First Off, What's Your Name?</div>
+
+                        <div class="form_desc">
+                            <p>And what's the best email address for us to get in contact with you?</p>
+                        </div>
+
+                        <div class="user_details">
+                            <form  id="personal_details_form" action="profile.html">
+                                <div class="input_label">First Name*</div>
+                                <input class="form_input" type="text" placeholder="Jessie..." required>
+
+                                <div class="input_label">Last name*</div>
+                                <input class="form_input" type="text" placeholder="Miller..." required>
+
+                                <div class="input_label">Email Address*</div>
+                                <input class="form_input" type="email" placeholder="name@company.com..." required>
+
+                                <div class="terms">
+                                    <input class="radio_btn" id="click_btn" type="radio" aria-label="btn" required>
+                                    <span>I agree to the A.Team <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</span>
+                                </div>
+
+                                <button type submit id="next_btn" class="orange_next_btn" value="Next">Next</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process_footer">
+                <div class="footer_text">© 2024 ATeams Inc., All rights reserved.</div>
+                <div class="footer_links">
+                    <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a></div>
+            </div>
+            
+        </div>
+
+        <div class="cover"><img src="images/img2.png" alt=""></div>
+
+    </div>
+
+<script src="javascript.js" defer></script>
+</body>
+</html>
