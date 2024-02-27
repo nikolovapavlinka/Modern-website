@@ -431,6 +431,81 @@ form {
     background-color: #deebff;
 }
 
+.item1 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    font-weight: 500;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#up_arrow_img {
+    display: none; 
+}
+
+li {
+    list-style: none;
+    padding-left: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+li:hover {
+    
+}
+
+.option_select li {
+    display: flex;
+    align-items: center;
+}
+
+.option_select li:hover {
+    background-color: #deebff ; 
+}
+
+input[type="checkbox"] {
+    transform: scale(1.4);
+    margin-top: 5px; 
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background-color: rgb(112, 0, 227);
+}
+
+.checked {
+    background-color: #2684ff !important;
+}
+
+.selected_roles {
+    margin-top: 20px;
+}
+
+.selected_option {
+    display: inline-flex;
+    padding: 8px 16px;
+    background-color: rgb(211, 214, 220);
+    border-radius: 100px;
+    color: #000;
+    margin-right: 4px;
+    min-width: 18px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 143%;
+}
+
+.remove_option {
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 0px;
+    height: 20px;
+}
+
+
 
 
 

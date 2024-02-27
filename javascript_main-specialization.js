@@ -21,6 +21,13 @@ options.forEach(function(option) {
 
 //_______________________________________________________________________
 
+// Ja menuva slikickata gore-gole i go otvara menito dolu
+
+var arrowImg = document.getElementById("arrow_img");
+var upArrowImg = document.getElementById("up_arrow_img");
+var isArrowDown = true;
+
+
 function toggleOptions() {
     var options = document.getElementById("optionSelect");
     if (options.style.display === "none") {
@@ -28,6 +35,16 @@ function toggleOptions() {
     } else {
         options.style.display = "none";
     }
+
+    if (isArrowDown) {
+        arrowImg.style.display = "inline";
+        upArrowImg.style.display = "none";
+    } else {
+        arrowImg.style.display = "none";
+        upArrowImg.style.display = "inline";
+    }
+    
+    isArrowDown = !isArrowDown;
 }
 
 function select(option) {
@@ -55,6 +72,10 @@ function checkSelect() {
        nextButton.classList.remove("active");
    }
 }
+
+
+
+
 
 
 
